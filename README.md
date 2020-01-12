@@ -43,9 +43,13 @@ RDD(Resilient Distributed Dataset) idea is basically to distribute each dataset 
 
 Hbase database was selected for its qualities, such as linear scalability(if you need to store more data, the unique effort will be adding more nodes), automatic replication(data stored in HDFS), and high throughput.
 
+## Project Architecture
+
+![Project diagram](Real-Time%20Application.png)
+
 ## Flow
 
-To demonstrate the flow, I'm separating the flow through topics bellow:
+To describe the flow, I separated the flow through topics bellow:
 
 1 - (begin) The flow starts when the client's websites trigger an event and send the data to our system.
 
