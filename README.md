@@ -18,10 +18,13 @@
 
 To solve the problem, I created a structure following the technology stack below:
 
-1 - Microservices
-2 - Kafka
-3 - Spark
-4 - HBase
+- Microservices
+
+- Kafka
+
+- Spark
+
+- HBase
 
 ### Microservices
 
